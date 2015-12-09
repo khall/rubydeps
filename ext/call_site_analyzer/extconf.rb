@@ -3,6 +3,7 @@ require "debugger/ruby_core_source"
 
 #comment this line if not debugging
 #$CFLAGS='-ggdb -Wall -O0 -pipe'
+$CFLAGS='-I/Users/khall/Downloads/ruby-2.2.3'
 
 hdrs = proc { 
   have_type("rb_iseq_location_t", "vm_core.h")
