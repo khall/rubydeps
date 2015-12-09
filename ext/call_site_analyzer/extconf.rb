@@ -1,3 +1,4 @@
+$LOAD_PATH << '/Users/khall/Work/debugger-ruby_core_source-1.3.8/lib'
 require 'mkmf'
 require "debugger/ruby_core_source"
 
